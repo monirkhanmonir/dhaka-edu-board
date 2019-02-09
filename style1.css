@@ -1,0 +1,118 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+}
+.header{
+	height: 100px;
+	width: 90%;
+	color: #050505;
+}
+.image img {
+	height: 90px;
+	padding-left: 13px;
+	padding-top: 9px;
+	float: left;
+}
+.logo{
+	margin: 0px;
+}
+.logo h2 {
+	padding-top: 30px;
+	margin-bottom: -20px;
+}
+.right_logo{
+	float: right;
+}
+.right_logo h4 {
+	margin-top: -30px;
+	margin-right: 70px;
+	background: #158240;
+	border-radius: 8px;
+}
+.right_logo a{
+	color: #fff;
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+}
+.right_logo a:hover{
+	background: #78BF43;
+}
+.menu{
+	width: 90%;	
+}
+.menu1{
+	background: #CACCCC;
+	width: 40%;
+	height: 30px;
+	float: left;
+} 
+.menu1 h3 {
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.menu2{
+	background: #ECECEC;
+	width:100%;
+	height: 30px;
+}
+.menu2 h4 {
+	float: right;
+	padding-right: 18px;
+	padding-top: 5px;
+}
+.main_content{
+	width: 90%;
+}
+.main1{
+	width: 75%;
+	float: right;
+}
+.main-table{
+	width: 95%;
+	border: 1px solid #eca;
+}
+.main_table2{
+
+}
+.main2{
+	width: 25%;
+
+	float: left;
+}
+.main2 img {
+	padding: 26px;
+	height: 280px;
+}
+.mytable{
+	width: 100%;
+		border: 1px solid #eca;
+}
+.mytable tr th {
+	background: #158240;
+	padding: 5px;
+	font-size: 20px;
+}
+.mytable tr td {
+	padding: 3px;
+}
+.mytable tr:nth-child(2n+1){
+	background: #78BF43;
+}
+.mytable tr:nth-child(2n){
+	background: #BBDC99;
+}
+
+.foter{
+	width: 90%;
+	position: relative;
+}
+.foter img {
+	position: absolute;
+	left: 366px;
+	height: 100px;
+}
